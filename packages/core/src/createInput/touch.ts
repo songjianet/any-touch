@@ -1,4 +1,4 @@
-import type { stage } from '@any-touch/shared';
+import { stage } from '@any-touch/shared';
 import inputCreator from './inputCreator';
 /**
  * 格式化Touch事件对象

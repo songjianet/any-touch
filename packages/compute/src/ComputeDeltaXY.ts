@@ -1,5 +1,5 @@
 import { radianToAngle } from '@any-touch/vector';
-import type { Input } from '@any-touch/shared';
+import { Input } from '@any-touch/shared';
 
 function ComputeDeltaXY() {
     return function (input: Input): { deltaX: number, deltaY: number, deltaXYAngle: number } {

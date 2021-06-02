@@ -12,7 +12,7 @@
 // }
 
 import { IS_WX } from '@any-touch/shared';
-import type { SupportEvent } from '@any-touch/shared';
+import { SupportEvent } from '@any-touch/shared';
 
 import { TOUCH_START, TOUCH_MOVE, TOUCH_END, TOUCH_CANCEL, MOUSE_DOWN, MOUSE_MOVE, MOUSE_UP } from '@any-touch/shared';
 const TOUCH_EVENTS = [TOUCH_START, TOUCH_MOVE, TOUCH_END, TOUCH_CANCEL];

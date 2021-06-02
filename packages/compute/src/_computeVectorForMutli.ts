@@ -1,4 +1,4 @@
-import type { Vector, InputOnlyHasCurrent, Input } from '@any-touch/shared';
+import { Vector, InputOnlyHasCurrent, Input } from '@any-touch/shared';
 import { CLIENT_X, CLIENT_Y } from '@any-touch/shared';
 function computeVector(input: InputOnlyHasCurrent): Vector {
     return {

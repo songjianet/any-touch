@@ -1,4 +1,4 @@
-import type { Computed, EventTrigger } from '@any-touch/shared';
+import { Computed, EventTrigger } from '@any-touch/shared';
 import { ComputeAngle } from '@any-touch/compute';
 import Recognizer, { recognizeForPressMoveLike } from '@any-touch/recognizer';
 

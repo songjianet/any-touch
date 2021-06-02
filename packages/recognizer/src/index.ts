@@ -1,4 +1,4 @@
-import type { Input, Computed, ComputeWrapFunction } from '@any-touch/shared';
+import { Input, Computed, ComputeWrapFunction } from '@any-touch/shared';
 import {
     STATUS_POSSIBLE, _$recognizerstatus
 } from '@any-touch/shared';

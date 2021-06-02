@@ -1,4 +1,4 @@
-import type { EventTrigger, Computed } from '@any-touch/shared';
+import { EventTrigger, Computed } from '@any-touch/shared';
 import { INPUT_END } from '@any-touch/shared';
 import { ComputeDistance, ComputeVAndDir, ComputeMaxLength } from '@any-touch/compute';
 import Recognizer from '@any-touch/recognizer';

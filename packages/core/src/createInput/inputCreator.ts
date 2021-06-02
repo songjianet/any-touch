@@ -2,7 +2,7 @@
  * event(Mouse|Touch) => BasicsInput => Input => Computed => AnyTouchEvent
  * 构造统一的Input格式
  */
-import type { BasicsInput, InputOnlyHasCurrent, Input, Point } from '@any-touch/shared';
+import { BasicsInput, InputOnlyHasCurrent, Input, Point } from '@any-touch/shared';
 import { CLIENT_X, CLIENT_Y, INPUT_START, INPUT_CANCEL, INPUT_END } from '@any-touch/shared';
 export default function () {
     let id = 0;

@@ -9,9 +9,9 @@
  * Event(Mouse|Touch) => BaseInput => Input => Computed => AnyTouchEvent
  */
 import AnyEvent from 'any-event';
-import type { Listener } from 'any-event';
+import { Listener } from 'any-event';
 
-import type { RecognizerConstruct, AnyTouchEvent, SupportEvent, ComputeFunction, ComputeWrapFunction, InputCreatorFunctionMap, InputCreatorFunction, Computed } from '@any-touch/shared';
+import { RecognizerConstruct, AnyTouchEvent, SupportEvent, ComputeFunction, ComputeWrapFunction, InputCreatorFunctionMap, InputCreatorFunction, Computed } from '@any-touch/shared';
 import {
     Recognizer,
     TOUCH_START, TOUCH_MOVE, TOUCH_END, TOUCH_CANCEL, MOUSE_DOWN, MOUSE_MOVE, MOUSE_UP,

@@ -1,4 +1,4 @@
-import type { stage, PointClientXY } from '@any-touch/shared';
+import { stage, PointClientXY } from '@any-touch/shared';
 import { MOUSE_DOWN, MOUSE_MOVE, MOUSE_UP, INPUT_START, INPUT_MOVE, INPUT_END } from '@any-touch/shared';
 import inputCreator from './inputCreator';
 export default function () {

@@ -1,4 +1,4 @@
-import type { Input } from '@any-touch/shared';
+import { Input } from '@any-touch/shared';
 import { INPUT_START } from '@any-touch/shared';
 
 function ComputeMaxLength() {

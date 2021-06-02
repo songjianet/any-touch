@@ -1,4 +1,4 @@
-import type { EventTrigger, Computed } from '@any-touch/shared';
+import { EventTrigger, Computed } from '@any-touch/shared';
 import {
     STATUS_FAILED, STATUS_RECOGNIZED, DIRECTION_UP, INPUT_CANCEL, INPUT_END, INPUT_START
 } from '@any-touch/shared';

@@ -1,4 +1,4 @@
-import type { Input,VS, Point } from '@any-touch/shared';
+import { Input,VS, Point } from '@any-touch/shared';
 import { getAngle } from '@any-touch/vector';
 import _computeVectorForMutli from './_computeVectorForMutli';
 
